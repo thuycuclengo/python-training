@@ -9,4 +9,15 @@ complex: a + bj j^2 = -1
 
 + - * / // % **
 print
+
+strings
+variables
 """
+
+name = 'Cúc'
+age = 23
+job = 'unemployed'
+
+print(name)
+print(age)
+print(job)
