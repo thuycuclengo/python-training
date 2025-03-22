@@ -12,12 +12,24 @@ print
 
 strings
 variables
-"""
+input => str
 
+int(value)
+float(value)
+str(value)
+bool(value)
+"""
+##
 name = 'Cúc'
 age = 23
 job = 'unemployed'
+graduation_day = 22
 
 print(name)
 print(age)
 print(job)
+
+##
+print("Hi Cuc")
+
+##
