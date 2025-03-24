@@ -15,9 +15,12 @@ month = ["Jan", 1, "Feb", 2, "June", 6, "Dec", 12]
 
 # month.insert(position, object insert)
 month.insert(4, "Mar")
-month.insert(5, 3)
-month.insert(12, 9999)
+print(month)
 
+month.insert(5, 3)
+print(month)
+
+month.insert(12, 9999)
 print(month)
 
 ## remove an item
@@ -38,3 +41,5 @@ print(last_in_line)
 
 personality.clear()
 print(personality)
+
+## Tuples
