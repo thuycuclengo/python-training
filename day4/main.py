@@ -6,9 +6,12 @@ print(places)
 print(["Sapa", "Phan Thiet", "Ha Noi", "Sai Gon"])
 
 ## index
-movie_time = [20.00, 13.40, 08.35, 19.20]
-movie_time.append(23.15)
-print(movie_time[-3])
+showtime = [20.00, 13.40, 08.35, 19.20]
+# add item at the end of list
+showtime.append(23.15)
+print(showtime)
+# index count from end
+print(showtime[-3])
 
 ## add an item in the middle
 month = ["Jan", 1, "Feb", 2, "June", 6, "Dec", 12]
@@ -36,6 +39,7 @@ print(personality)
 del personality[3]
 print(personality)
 
+# print removed item
 last_in_line = personality.pop(1)
 print(last_in_line)
 
