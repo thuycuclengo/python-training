@@ -1,4 +1,4 @@
-##
+## Lists (mutable)
 places = ["Sapa", "Phan Thiet", "Ha Noi", "Sai Gon"]
 print(places)
 
@@ -42,4 +42,15 @@ print(last_in_line)
 personality.clear()
 print(personality)
 
-## Tuples
+## Tuples (immutable)
+coffee = [
+    ("Americano", 45 * 1000, "VND"),
+    ("Flat white", 45 * 1000, "VND"),
+    ("Cold brew", 55 * 1000, "VND")
+]
+print(coffee)
+print("--->", coffee[1])
+
+# access an index in a tuple
+# variable_name[tuple_order][index_in_tuple]
+print(coffee[0][1])
