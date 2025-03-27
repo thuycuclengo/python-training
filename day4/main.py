@@ -58,3 +58,7 @@ print("--->", coffee[1])
 # access an index in a tuple
 # variable_name[tuple_order][index_in_tuple]
 print(coffee[0][1])
+
+## - tuple
+a = [1,]
+print(a)
